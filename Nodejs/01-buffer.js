@@ -18,3 +18,5 @@ buf2[1] = 88;
 buf2[2] = 89;
 buf2[3] = 90;
 console.log(buf2);
+// 指定Buffer的大小 可以包含敏感数据 
+var buf3 = Buffer.allocUnsafe(10);
